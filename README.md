@@ -1,4 +1,6 @@
-This template was created using the [Supabase Quick Start Guide](https://supabase.com/docs/guides/with-nextjs)
+This starter was created using the [Supabase Quick Start Guide](https://supabase.com/docs/guides/with-nextjs)
+
+This starter also includes a branch that implements [Storybook](https://github.com/drteresavasquez/next-supabase-starter/tree/storybook-implementation).
 
 ## Getting Started
 
