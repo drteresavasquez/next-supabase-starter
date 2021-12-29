@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+<img width="500" alt="next supabase and storybook logos" src="https://user-images.githubusercontent.com/29741570/147683398-ea745d9c-efcd-483c-a5be-0f68ea23ace0.png" />
+</div>
+
 This starter was created using the [Supabase Quick Start Guide](https://supabase.com/docs/guides/with-nextjs) and the [Storybook/Next JS Guide](https://storybook.js.org/blog/get-started-with-storybook-and-next-js/)
 
 This starter also includes a branch [without Storybook](https://github.com/drteresavasquez/next-supabase-storybook-starter/tree/no-storybook).
@@ -21,6 +25,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Getting started with Storybook
+
 Start the storybook server
 
 ```bash
