@@ -1,6 +1,6 @@
 This starter was created using the [Supabase Quick Start Guide](https://supabase.com/docs/guides/with-nextjs)
 
-This starter also includes a branch that implements [Storybook](https://github.com/drteresavasquez/next-supabase-starter/tree/storybook-implementation).
+This starter also includes a branch [without Storybook](https://github.com/drteresavasquez/next-supabase-storybook-starter/tree/no-storybook).
 
 ## Getting Started
 
