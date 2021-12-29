@@ -5,18 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.29.1",
