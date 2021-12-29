@@ -2,12 +2,12 @@ This template was created using the [Supabase Quick Start Guide](https://supabas
 
 ## Getting Started
 
-First, run the development server:
+First, do the installations, then run the development server:
 
 ```bash
+npm i
+npm run prepare
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

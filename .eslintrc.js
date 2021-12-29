@@ -1,10 +1,9 @@
 module.exports = {
-  extends: ["next", "next/core-web-vitals"],
+  extends: ['next', 'next/core-web-vitals', 'prettier', 'airbnb'],
   env: {
     browser: true,
     es2021: true,
   },
-  extends: ['prettier', 'airbnb'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -12,9 +11,12 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'jest'],
+  plugins: ['prettier'],
   rules: {
-    "no-unused-vars": "error",
+    'no-unused-vars': 'error',
+    'react/jsx-props-no-spreading': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'no-alert': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-one-expression-per-line': [0],
     'no-console': [1, { allow: ['error', 'warn'] }],
